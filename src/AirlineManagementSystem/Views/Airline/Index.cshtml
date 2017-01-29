@@ -1,0 +1,82 @@
+﻿@model IEnumerable<AirlineManagementSystem.Models.Airline>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<h2>
+    Airlines
+</h2>
+<hr />
+<p>
+    <a asp-controller="Airline" asp-action="Create">Create New</a>
+</p>
+
+
+@{ 
+    if (TempData["MessageInfo"].ToString().Equals("Successfully Record Saved"))
+    {
+       <div id="successMessage" class="alert alert-success" role="alert">
+           <p>
+               Successfully Record Saved
+           </p>
+        </div>
+    }
+    else if (TempData["MessageInfo"].ToString().Equals("Successfully Record Deleted"))
+    {
+        <div id="successMessage" class="alert alert-danger" role="alert">
+            <p>
+                Successfully Record Deleted
+            </p>
+        </div>
+    }
+    else if (TempData["MessageInfo"].ToString().Equals("Successfully Record Edited"))
+    {
+        <div id="successMessage" class="alert alert-success" role="alert">
+            <p>
+                Successfully Record Edited
+            </p>
+        </div>
+    }
+    else
+    {
+        <div id="successMessage" class="alert alert-info" role="alert" hidden>
+            <p>
+                @TempData["MessageInfo"].ToString();
+            </p>
+        </div>
+
+        }
+    }
+<h3>
+    
+</h3>
+<table class="table table-responsive table-striped">
+    <thead class="thead-inverse">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-Name="@item.Name" asp-route-id="@item.Id">Edit</a>
+            </td>
+            <td>
+                <a onclick="return confirm('Are you sure you wish to delete this Record?');" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+
+            </td>
+        </tr>
+    }
+</table>

@@ -1,0 +1,17 @@
+﻿@model AirlineManagementSystem.Models.Airline
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h2>Add</h2>
+<form asp-controller="Airline" asp-action="Create" method="post" class="form-horizontal" role="form">
+    @Html.Partial("_AirlineForm")
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Add" class="btn btn-default" />
+        </div>
+    </div>
+</form>

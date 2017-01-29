@@ -1,0 +1,11 @@
+G:\Azilen Work\DotNetCore\AirlineManagementSystem\src\AirlineManagementSystem\bin\Debug\netcoreapp1.1\AirlineManagementSystem.deps.json
+G:\Azilen Work\DotNetCore\AirlineManagementSystem\src\AirlineManagementSystem\bin\Debug\netcoreapp1.1\AirlineManagementSystem.runtimeconfig.json
+G:\Azilen Work\DotNetCore\AirlineManagementSystem\src\AirlineManagementSystem\bin\Debug\netcoreapp1.1\AirlineManagementSystem.runtimeconfig.dev.json
+G:\Azilen Work\DotNetCore\AirlineManagementSystem\src\AirlineManagementSystem\bin\Debug\netcoreapp1.1\AirlineManagementSystem.dll
+G:\Azilen Work\DotNetCore\AirlineManagementSystem\src\AirlineManagementSystem\obj\Debug\netcoreapp1.1\AirlineManagementSystem.csprojResolveAssemblyReference.cache
+G:\Azilen Work\DotNetCore\AirlineManagementSystem\src\AirlineManagementSystem\obj\Debug\netcoreapp1.1\AirlineManagementSystem.AssemblyInfo.cs
+G:\Azilen Work\DotNetCore\AirlineManagementSystem\src\AirlineManagementSystem\bin\Debug\netcoreapp1.1\AirlineManagementSystem.pdb
+G:\Azilen Work\DotNetCore\AirlineManagementSystem\src\AirlineManagementSystem\obj\Debug\netcoreapp1.1\AirlineManagementSystem.dll
+G:\Azilen Work\DotNetCore\AirlineManagementSystem\src\AirlineManagementSystem\obj\Debug\netcoreapp1.1\AirlineManagementSystem.pdb
+G:\Azilen Work\DotNetCore\AirlineManagementSystem\src\AirlineManagementSystem\bin\Debug\netcoreapp1.1\Microsoft.DiaSymReader.Native.x86.dll
+G:\Azilen Work\DotNetCore\AirlineManagementSystem\src\AirlineManagementSystem\bin\Debug\netcoreapp1.1\Microsoft.DiaSymReader.Native.amd64.dll
